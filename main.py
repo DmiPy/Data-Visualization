@@ -43,7 +43,7 @@ for i, country in enumerate(countries):                             # using a lo
     country_data = df[df.Country == country]    
     x_values = [x for x in range(                                   # creating start x labels
         len(country_data["Life expectancy at birth (years)"]))]
-    rounded_values = [                                              # round the values because they are float
+    rounded_values = [                                              # round the values on the x-axis because they are float
         round(value) for value in country_data["Life expectancy at birth (years)"]]
     sns.regplot(country_data, ax=ax,                                # regplot shows the correlation between Life Expectancy
                     x="Life expectancy at birth (years)", y="GDP", color=colors[i]) # and GDP. Each Country has its own color
