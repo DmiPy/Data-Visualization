@@ -37,15 +37,15 @@ fig, axes = plt.subplots(nrows=2, ncols=3, figsize=(12, 8))         # creating a
 fig.suptitle("Correlation between Life Expectancy and GDP")         # with figure size 12x8
 
 for i, country in enumerate(countries):                             # using a loop 6 scatterplots for each country will be created
-    cols = i % 3            # remainder of division: column position
-    rows = i // 3           # integer division: row position                                        
-    ax = axes[rows, cols]   # position in figure
+    cols = i % 3                                                    # remainder of division: column position
+    rows = i // 3                                                   # integer division: row position                                        
+    ax = axes[rows, cols]                                           # position in figure
     country_data = df[df.Country == country]    
     x_values = [x for x in range(                                   # creating start x labels
         len(country_data["Life expectancy at birth (years)"]))]
     rounded_values = [                                              # round the values because they are float
         round(value) for value in country_data["Life expectancy at birth (years)"]]
-    sns.regplot(country_data, ax=ax,                            # regplot shows the correlation between Life Expectancy
+    sns.regplot(country_data, ax=ax,                                # regplot shows the correlation between Life Expectancy
                     x="Life expectancy at birth (years)", y="GDP", color=colors[i]) # and GDP. Each Country has its own color
     ax.set_xticks(rounded_values)                                   # replacing the start x labels with rounded valus
     if len(set(rounded_values)) > 8:                                # if there are too many labels on x axis, they will be rotated
