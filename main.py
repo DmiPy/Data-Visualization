@@ -47,15 +47,15 @@ for i, country in enumerate(countries):                             # using a lo
         round(value) for value in country_data["Life expectancy at birth (years)"]]
     sns.regplot(country_data, ax=ax,                                # regplot shows the correlation between Life Expectancy
                     x="Life expectancy at birth (years)", y="GDP", color=colors[i]) # and GDP. Each Country has its own color
-    ax.set_xticks(rounded_values)                                   # replacing the start x labels with rounded valus
+    ax.set_xticks(rounded_values)                                   # replacing the start x labels with rounded values
     if len(set(rounded_values)) > 8:                                # if there are too many labels on x axis, they will be rotated
         ax.set_xticklabels(ax.get_xticklabels(), rotation=35)
 
-    ax.set_title(f"{country}")                          # title and labels
+    ax.set_title(f"{country}")                                      # title and labels
     ax.set_xlabel("Life expectancy at birth (years)")
     ax.set_ylabel("GDP")
 
-plt.tight_layout()      # adjusts the position and size of the charts on the figure
+plt.tight_layout()                                                  # adjusts the position and size of the charts on the figure
 plt.show()
 plt.close()
 
