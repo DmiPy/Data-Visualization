@@ -45,7 +45,7 @@ for i, country in enumerate(countries):                             # using a lo
         len(country_data["Life expectancy at birth (years)"]))]
     rounded_values = [                                              # round the values because they are float
         round(value) for value in country_data["Life expectancy at birth (years)"]]
-    sns.scatterplot(country_data, ax=ax,                            # scatterplot shows the correlation between Life Expectancy
+    sns.regplot(country_data, ax=ax,                            # scatterplot shows the correlation between Life Expectancy
                     x="Life expectancy at birth (years)", y="GDP", color=colors[i]) # and GDP. Each Country has its own color
     ax.set_xticks(rounded_values)                                   # replacing the start x labels with rounded valus
     if len(set(rounded_values)) > 8:                                # if there are too many labels on x axis, they will be rotated
