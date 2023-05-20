@@ -196,4 +196,4 @@ plt.ylabel('Residuals')
 plt.show()
 plt.close()
 
-# there is no linear regression between GDP and Live Expectancy values in Countries
+# there is no linear relationship between GDP and Live Expectancy values
