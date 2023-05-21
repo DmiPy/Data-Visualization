@@ -1,6 +1,6 @@
 # Data-Visualization
 
-## Why did i do this project? 
+## What did i do in this project? 
 
     1. Honed work with libraries for data visualization 
     
