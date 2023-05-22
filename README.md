@@ -1,6 +1,6 @@
 # Data-Visualization
 
-## What were the goals? 
+## What were the objectives? 
 
 1. improve work with data visualisation libraries 
     
