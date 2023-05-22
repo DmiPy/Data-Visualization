@@ -44,7 +44,7 @@ but the information we have is up to 2015.
 What about **life expectancy**? Here we can see that even though the U.S. has the highest GDP, it does not look like it is breaking away. Germany is by far the leader here, with a GDP lower than that of China. 
 **_The conclusion is that GDP has no direct effect on life expectancy._** 
 
-![image](https://github.com/DmiPy/Data-Visualization/assets/128055633/6d69d5c3-579b-4916-9e5f-0deec5fab404)
+![top_life_expectancy_gdp](https://github.com/DmiPy/Data-Visualization/assets/128055633/3a00c165-5a01-44e6-925b-1e31f5847aef)
 
 
 ### 4. Grouping and Comparison
