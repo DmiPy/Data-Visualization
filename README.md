@@ -17,15 +17,15 @@
 
 3. Install all the neccessary libraries with `pip` or `anaconda`
 
-    *```pip install pandas```
+    * ```pip install pandas```
 
-    *```pip install matplotlib```
+    * ```pip install matplotlib```
 
-    *```pip install statsmodels```
+    * ```pip install statsmodels```
 
-    *```pip install scikit-learn```
+    * ```pip install scikit-learn```
 
-    *```pip install seaborn```
+    * ```pip install seaborn```
 
 
 4. Open the project and that's it!
