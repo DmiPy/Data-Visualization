@@ -12,14 +12,21 @@
 1. Create a github.com account if you don't have one
 
 2. Clone the [origin](https://github.com/DmiPy/Data-Visualization) repository to your local computer using the following command:
+
 ```$ git clone https://github.com/DmiPy/Data-Visualization.git```
 
 3. Install all the neccessary libraries with `pip` or `anaconda`
+
     *```pip install pandas```
+
     *```pip install matplotlib```
+
     *```pip install statsmodels```
+
     *```pip install scikit-learn```
+
     *```pip install seaborn```
+
 
 4. Open the project and that's it!
 
