@@ -15,9 +15,7 @@ zimbabwe = df[df.Country == "Zimbabwe"]
 china = df[df.Country == "China"]
 
 # task 1:
-# Comparison of life expectancy and GDP:
-# Construct a graph showing life expectancy and GDP for each country over a period of time.
-# Such a graph will allow us to compare trends and possible correlations between the two indicators.
+# Comparison of the GDP of countries over a period of time
 
 sns.lmplot(data=df, x="Year", y="GDP", lowess=True,               # using linear model plot to show the correlation between
            hue="Country", palette="colorblind")                   # countries' GDP
@@ -175,6 +173,7 @@ plt.ylabel('Life Expectancy')
 plt.legend()
 
 # displaying graph
+plt.tight_layout()
 plt.show()
 plt.close()
 
@@ -193,6 +192,7 @@ plt.ylabel('Residuals')
 
 
 # graph display
+plt.tight_layout()
 plt.show()
 plt.close()
 
