@@ -8,6 +8,28 @@
     
 3. to touch a little bit of machine learning ( linear regression ) in the visualization of finding a linear relationship
     
+## Data Research
+
+First, there were 6 countries in my data table: USA, China, Germany, Mexico, Zimbabwe, Chile. 
+Each country had 15 years of GDP and Life Expectancy data. 
+
+But first, what is *_GDP_*?
+GDP measures the monetary value of final goods and services. 
+Simply speaking, the higher the GDP, the better the life in the country.
+
+1.The *first* thing I found was that from 2000 to 2015, only three countries had positive GDP development: the United States, China, and Germany. 
+But the last one was hardly noticeable. 
+
+![image](https://github.com/DmiPy/Data-Visualization/assets/128055633/d5cfaa75-c80c-4e8c-ad0b-1fcb5383c84f)
+
+
+2.*Next* is the correlation between life expectancy and GDP. Here we observe a linear relationship in all countries. 
+Every year in all countries the GDP with life expectancy increased slightly. 
+The only difference is that some country (say Germany) had a life expectancy of 78 years in the year 2000, while Zimbabwe started at 44 years at the same time.
+
+![corr_lifeexp_gdp](https://github.com/DmiPy/Data-Visualization/assets/128055633/757ae337-5789-4785-9f16-0225b52320bf)
+
+
 ## How to install the project ?
 1. Create a github.com account if you don't have one
 
@@ -29,6 +51,8 @@
 
 
 4. Open the project and that's it!
+
+
 
     
     
