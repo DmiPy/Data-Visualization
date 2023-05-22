@@ -42,7 +42,7 @@ Even China could not compete with the United States at that time. Of course, we 
 but the information we have is up to 2015.
 
 What about **life expectancy**? Here we can see that although the US has the highest GDP, it does not look like it is going to break away. Germany is by far the leader here, with a GDP lower than China's. 
-**The conclusion is that GDP has no direct effect on life expectancy._**
+**_The conclusion is that GDP has no direct effect on life expectancy._**
 
 ![top_life_expectancy_gdp](https://github.com/DmiPy/Data-Visualization/assets/128055633/3a00c165-5a01-44e6-925b-1e31f5847aef)
 
@@ -74,7 +74,8 @@ It was difficult because it required knowledge of linear regression. It also did
 as I found out in [point 3](https://github.com/DmiPy/Data-Visualization/edit/main/README.md#3-top-countries-by-gdp-and-life-expectancy), there is no correlation or relationship between life expectancy and GDP. 
 You could say that a linear relationship also requires a lot more data than about 100 lines. 
 
-So here we can clearly see that a ***_linear regression is not suitable or simple to determine or predict the relationship between GDP and life expectancy._***. 
+So here we can clearly see that a ***_linear regression is not suitable or simple to determine or predict the relationship between GDP and life expectancy_***.
+
 ![linmodel](https://github.com/DmiPy/Data-Visualization/assets/128055633/48306539-f621-4685-812e-101144331ac3)
 
 
