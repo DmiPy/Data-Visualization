@@ -25,6 +25,7 @@ But the last one was hardly noticeable.
 
   2.**Next** is the correlation between life expectancy and GDP. Here we observe a linear relationship in all countries. 
 Every year in all countries the GDP with life expectancy increased slightly. 
+
 The only difference is that some country (say Germany) had a life expectancy of 78 years in the year 2000, while Zimbabwe started at 44 years at the same time.
 
 ![corr_lifeexp_gdp](https://github.com/DmiPy/Data-Visualization/assets/128055633/757ae337-5789-4785-9f16-0225b52320bf)
@@ -33,6 +34,7 @@ The only difference is that some country (say Germany) had a life expectancy of 
   3. The **third** visualization shows the _top countries by GDP and life expectancy_. Obviously, eight years ago, the **_U.S. dominated GDP_**. 
     Even China at that time could not be competitive with the United States. Of course we know that the situation has changed dramatically now, 
     but the information we have is up to 2015. 
+
     What about **life expectancy**? Here we can see that even though the U.S. has the highest GDP, it does not look like it is breaking away. Germany is by far the leader here, with a GDP lower than that of China. 
     **_The conclusion is that GDP has no direct effect on life expectancy._** 
 
