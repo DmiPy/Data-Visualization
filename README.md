@@ -13,7 +13,7 @@
 
 2. Clone the [origin](https://github.com/DmiPy/Data-Visualization) repository to your local computer using the following command:
 
-```$ git clone https://github.com/DmiPy/Data-Visualization.git```
+    ```$ git clone https://github.com/DmiPy/Data-Visualization.git```
 
 3. Install all the neccessary libraries with `pip` or `anaconda`
 
