@@ -16,6 +16,7 @@ Each country had 15 years of GDP and Life Expectancy data.
 But first, what is *_GDP_*?
 GDP measures the monetary value of final goods and services. 
 Simply speaking, the higher the GDP, the better the life in the country.
+If you have some more questions about GDP, then feel free to read [this article](https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/gross-domestic-product-GDP#:~:text=GDP%20measures%20the%20monetary%20value,the%20borders%20of%20a%20country.).
 
 ### 1. GDP Development
 
@@ -76,6 +77,13 @@ You could say that a linear relationship also requires a lot more data than abou
 So here we can clearly see that a ***_linear regression is not suitable or cannot simply determine or predict the relationship between GDP and life expectancy._*** 
 
 ![linmodel](https://github.com/DmiPy/Data-Visualization/assets/128055633/48306539-f621-4685-812e-101144331ac3)
+
+
+## Conclusion. 
+
+Although certain conclusions have been made about the fact that **_there is no correlation between life expectancy and GDP_**, _we *cannot* say that this is *100%* true_. 
+After all, the information in my table is rather limited, because it contains only 6 countries from different continents with a time period of 15 years. That's not enough to draw confident conclusions. 
+Moreover, linear regression is not appropriate for this case. A more sophisticated machine learning method is needed here, which I do not yet possess. 
 
 
 ## How to install the project ?
