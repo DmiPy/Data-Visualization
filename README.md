@@ -37,7 +37,7 @@ The only difference is that some countries (e.g. Germany) had a life expectancy 
 
 ### 3. Top countries by GDP and life expectancy
 
-The **third** visualisation shows the _top countries by GDP and life expectancy_. It is obvious that eight years ago the **USA dominated GDP_**. 
+The **third** visualisation shows the _top countries by GDP and life expectancy_. It is obvious that eight years ago the **_USA dominated GDP_**. 
 Even China could not compete with the United States at that time. Of course, we know that the situation has changed dramatically since then, 
 but the information we have is up to 2015.
 
